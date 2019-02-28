@@ -2,6 +2,16 @@ body {
 background: lightblue;
 }
 
+.container {
+    width: 500px;
+    margin: auto;
+
+}
+#gametitle {
+    background: pink;
+    width: 500px;
+    
+}
 #wins {
     color: green;
 }
@@ -9,3 +19,22 @@ background: lightblue;
 #losses {
     color: red;
 }
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gems {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+img {
+    width: 50px;
+
+}
+
+
+

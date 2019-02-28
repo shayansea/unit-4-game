@@ -24,6 +24,8 @@ $(document).ready(function () {
     $("#userScore").text(userScore);
     $("#targetScore").text(targetScore);
     $("#wins").text(wins); 
+    $("#losses").text(losses); 
+
 
     $("#GemA").click(function() {
         console.log("click")
