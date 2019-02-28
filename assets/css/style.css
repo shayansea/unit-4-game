@@ -1,5 +1,7 @@
 body {
 background: lightblue;
+
+
 }
 
 .container {
@@ -8,8 +10,13 @@ background: lightblue;
 
 }
 #gametitle {
-    background: pink;
+    background: #ee82ee;
     width: 500px;
+    text-align: center;
+    font-family: cursive;
+    color: #6a5acd;
+    border-style: outset;
+
     
 }
 #wins {
@@ -31,10 +38,15 @@ background: lightblue;
 
 }
 
+
 img {
     width: 50px;
 
 }
 
+img:hover { 
+    width: 60px;
+    opacity: .5;
+  }
 
 

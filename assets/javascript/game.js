@@ -34,11 +34,13 @@ $(document).ready(function () {
         $("#userScore").text(userScore); 
 
         if(userScore === targetScore) {
+            alert("You Won!");
             wins++;
             $("#wins").text(wins); 
             setVariables();
         }
         else if (userScore > targetScore) {
+            alert("You Lost!");
             losses++;
             $("#losses").text(losses); 
                     setVariables();
@@ -54,11 +56,13 @@ $(document).ready(function () {
         $("#userScore").text(userScore); 
 
         if(userScore === targetScore) {
+            alert("You Won!");
             wins++;
             $("#wins").text(wins); 
             setVariables();
         }
         else if (userScore > targetScore) {
+            alert("You Lost!");
             losses++;
             $("#losses").text(losses); 
                     setVariables();
@@ -74,11 +78,13 @@ $(document).ready(function () {
         $("#userScore").text(userScore); 
 
         if(userScore === targetScore) {
+            alert("You Won!");
             wins++;
             $("#wins").text(wins); 
             setVariables();
         }
         else if (userScore > targetScore) {
+            alert("You Lost!");
             losses++;
             $("#losses").text(losses); 
                     setVariables();
@@ -94,6 +100,7 @@ $(document).ready(function () {
         $("#userScore").text(userScore); 
 
         if(userScore === targetScore) {
+            alert("You Won!");
             wins++;
             $("#wins").text(wins); 
             setVariables();
@@ -101,6 +108,7 @@ $(document).ready(function () {
     
 
 else if (userScore > targetScore) {
+    alert("You Lost!");
     losses++;
     $("#losses").text(losses); 
             setVariables();
